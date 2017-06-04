@@ -1,6 +1,6 @@
 # Game Socket
 
-A socket interface game server. Learn from the `example.py`!
+A socket interface game server. Build your own socket games! Learn from the `example.py`!
 
 # Example:
 
@@ -24,4 +24,5 @@ Download or clone this repo, put it together with your scripts, then import.
 # Describe:
 
 The `server.py` contains a GameServer which is the server. Most time you don't need to rewrite it, just use it.
-The `game.py` contains a GameBase which is the game logic. Rewrite the `game_begin` function under you own subclass.
+
+The `game.py` contains a GameBase which is the game logic. Basicly you can copy a `example.py` and rewrite the `game_begin` function with you own game. And a new socket game done!
