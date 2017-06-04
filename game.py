@@ -80,6 +80,7 @@ class GameBase(object):
                     break
                 if not self.allow_login_retry:
                     break
+                self.sendline("Login error: %s" % extra_data)
             if login_state:
                 self.send(
                     self.line_sep +
