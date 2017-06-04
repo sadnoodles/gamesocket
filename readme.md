@@ -6,6 +6,17 @@ A socket interface game server. Learn from the `example.py`!
 
 See [example.py](./example.py)
 
+Start it use `python example.py` and play it use :
+
+`telnet 127.0.0.1 52700` 
+
+or 
+
+`nc 127.0.0.1 52700`
+
+Or some other socket tools you like.
+
+
 # Install
 
 Download or clone this repo, put it together with your scripts, then import.
